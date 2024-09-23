@@ -22,3 +22,6 @@ This project presents a comparative analysis of three popular reinforcement lear
 - **sb3-contrib**: 2.0.0a4
 - **PyGame**: 2.1.3.dev8
 - **Gym**: 0.26.2
+
+Missing shimmy installation. You provided an OpenAI Gym environment. Stable-Baselines3 (SB3) has transitioned to using Gymnasium internally. In order to use OpenAI Gym environments with SB3, you need to install shimmy (`pip install 'shimmy>=0.2.1'`).
+numpy 1.22.0

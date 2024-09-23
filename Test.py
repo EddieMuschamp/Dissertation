@@ -7,7 +7,7 @@ from stable_baselines3.common.evaluation import evaluate_policy
 
 env_name = "Acrobot-v1"                                                             # specify the environment to use
 env = gym.make(env_name, render_mode='human')                                       # create the gym environment
-model_Path = os.path.join('Training', 'Saved Models', 'A2C_Model_Acrobot_Params')  # retrieve the trained model
+model_Path = os.path.join('Project Code', 'Training', 'Saved Models', 'TRPO_Model_Acrobot_Params')  # retrieve the trained model
 model = TRPO.load(model_Path, env=env)                                              # and load it
 episodes = 100                                                                      # number of episodes the agent runs for 
 for episode in range(1, episodes+1):                                                # run algorithm in environment for each episode
